@@ -11,7 +11,7 @@ The Bluemix Kubernetes sample demonstrates how to set up your environment to dep
   - **BLUEMIX_SPACE** - Soecify your Bluemix space when building with Travis. Not required when building with DevOps Services pipeline.
 - ```deploy.sh``` - Downloads the Guestbook Kubernetes configuration, and deploys it to the previously created cluster.
 
-## Create an IBM DevOps Services toolchain
+## Create an IBM DevOps Services toolchain MRB
 The Create Toolchain button below will create a Bluemix DevOps service tookchain and pipeline for deploying the Guestbook sample.
 
 [![Create Toolchain](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/?repository=https://github.com/IBMCloudDevOps/bluemix-kubernetes-sample)
