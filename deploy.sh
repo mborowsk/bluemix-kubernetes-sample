@@ -15,8 +15,8 @@ if [ $? -ne 0 ]; then
 fi
 eval "$exp"
 
-echo -e "Downloading guestbook yml"
-curl --silent "https://raw.githubusercontent.com/kubernetes/kubernetes/master/examples/guestbook/all-in-one/guestbook-all-in-one.yaml" > guestbook.yml
+#echo -e "Downloading guestbook yml"
+#curl --silent "https://raw.githubusercontent.com/kubernetes/kubernetes/master/examples/guestbook/all-in-one/guestbook-all-in-one.yaml" > guestbook.yml
 
 #Find the line that has the comment about the load balancer and add the nodeport def after this
 let NU=$(awk '/^  # type: LoadBalancer/{ print NR; exit }' guestbook.yml)+3
